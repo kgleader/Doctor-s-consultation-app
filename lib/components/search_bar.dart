@@ -17,7 +17,7 @@ class SearchBar extends StatelessWidget {
           ),
           child: const TextField(
             decoration: InputDecoration.collapsed(
-              hintText: 'Search for doctors',
+              hintText: 'Искать нужного врача',
             ),
           ),
         ),

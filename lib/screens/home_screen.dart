@@ -137,26 +137,35 @@ class HomeScreen extends StatelessWidget {
       child: Column(
         children: <Widget>[
           DoctorCard(
-            'Dr. Stella Kane',
-            'Heart Surgeon - Flower Hospitals',
-            'assets/images/doctor1.png',
+            'Субаш Гупта',
+            'Хирург по пересадке печени - клиника "Макс"',
+            'assets/images/subash.jpg',
             kBlueColor,
           ),
           const SizedBox(
             height: 20,
           ),
           DoctorCard(
-            'Dr. Joseph Cart',
-            'Dental Surgeon - Flower Hospitals',
-            'assets/images/doctor2.png',
+            'Др.Абидип Чодри',
+            'Хирург по пересадке печени - клиника "БЛК-Макс"',
+            'assets/images/abhideep.jpg',
             kYellowColor,
           ),
           const SizedBox(
             height: 20,
           ),
           DoctorCard(
-            'Dr. Stephanie',
-            'Eye Specialist - Flower Hospitals',
+            'Др.Вивек Виж',
+            'Хирург по пересадке печени - клиника "Фортис"',
+            'assets/images/doctor3.png',
+            kOrangeColor,
+          ),
+          const SizedBox(
+            height: 20,
+          ),
+          DoctorCard(
+            'Др.Васу Деван',
+            'Хирург по пересадке печени - клиника "Жейпи"',
             'assets/images/doctor3.png',
             kOrangeColor,
           ),
