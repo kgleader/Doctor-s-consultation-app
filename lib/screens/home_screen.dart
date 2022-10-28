@@ -34,10 +34,10 @@ class HomeScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Text(
-                  'Find Your Desired\nDoctor',
+                  'Врач,которого вы ищете\n',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    fontSize: 32,
+                    fontSize: 22,
                     color: kTitleTextColor,
                   ),
                 ),
@@ -55,7 +55,7 @@ class HomeScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Text(
-                  'Categories',
+                  'Категории',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: kTitleTextColor,
@@ -73,7 +73,7 @@ class HomeScreen extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.symmetric(horizontal: 30),
                 child: Text(
-                  'Top Doctors',
+                  'ТОП врачей',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: kTitleTextColor,
@@ -101,28 +101,28 @@ class HomeScreen extends StatelessWidget {
             width: 30,
           ),
           CategoryCard(
-            'Dental\nSurgeon',
-            'assets/icons/dental_surgeon.png',
+            'Пересадка\nПечени',
+            'assets/icons/liver.jpg',
             kBlueColor,
           ),
           const SizedBox(
             width: 10,
           ),
           CategoryCard(
-            'Heart\nSurgeon',
-            'assets/icons/heart_surgeon.png',
+            'Кардио\nХирургия',
+            'assets/icons/heart.jpg',
             kYellowColor,
           ),
           const SizedBox(
             width: 10,
           ),
           CategoryCard(
-            'Eye\nSpecialist',
-            'assets/icons/eye_specialist.png',
+            'Пересадка\nПочек',
+            'assets/icons/kidney.jpg',
             kOrangeColor,
           ),
           const SizedBox(
-            width: 30,
+            width: 9,
           ),
         ],
       ),
@@ -143,7 +143,7 @@ class HomeScreen extends StatelessWidget {
             kBlueColor,
           ),
           const SizedBox(
-            height: 20,
+            height: 10,
           ),
           DoctorCard(
             'Др.Абидип Чодри',

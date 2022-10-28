@@ -1,5 +1,3 @@
-import 'package:doctor_consultation_app/components/schedule_card.dart';
-
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
@@ -73,7 +71,7 @@ class DetailScreen extends StatelessWidget {
                         children: <Widget>[
                           Image.asset(
                             _imageUrl,
-                            height: 120,
+                            height: 100,
                           ),
                           const SizedBox(
                             width: 20,
@@ -149,7 +147,7 @@ class DetailScreen extends StatelessWidget {
                         height: 50,
                       ),
                       Text(
-                        'About Doctor',
+                        'О докторе',
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
@@ -160,52 +158,11 @@ class DetailScreen extends StatelessWidget {
                         height: 10,
                       ),
                       Text(
-                        'Dr. Stella is the top most heart surgeon in Flower\nHospital. She has done over 100 successful sugeries\nwithin past 3 years. She has achieved several\nawards for her wonderful contribution in her own\nfield. She’s available for private consultation for\ngiven schedules.',
+                        'Доктор Субхаш Гупта является председателем Центра исследований печени и желчевыводящих путей Макса, который является одним из крупнейших центров трансплантации печени в мире с опытом более 3000 трансплантаций. Председатель-Макс Центр печеночных билиарных исследований.',
                         style: TextStyle(
                           height: 1.6,
                           color: kTitleTextColor.withOpacity(0.7),
                         ),
-                      ),
-                      const SizedBox(
-                        height: 20,
-                      ),
-                      Text(
-                        'Upcoming Schedules',
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 18,
-                          color: kTitleTextColor,
-                        ),
-                      ),
-                      const SizedBox(
-                        height: 20,
-                      ),
-                      ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '12',
-                        'Jan',
-                        kBlueColor,
-                      ),
-                      const SizedBox(
-                        height: 10,
-                      ),
-                      ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '13',
-                        'Jan',
-                        kYellowColor,
-                      ),
-                      const SizedBox(
-                        height: 10,
-                      ),
-                      ScheduleCard(
-                        'Consultation',
-                        'Sunday . 9am - 11am',
-                        '14',
-                        'Jan',
-                        kOrangeColor,
                       ),
                       const SizedBox(
                         height: 20,

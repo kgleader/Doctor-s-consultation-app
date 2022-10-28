@@ -13,7 +13,7 @@ class SearchBar extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 30),
           decoration: BoxDecoration(
             color: kSearchBackgroundColor,
-            borderRadius: BorderRadius.circular(30),
+            borderRadius: BorderRadius.circular(50),
           ),
           child: const TextField(
             decoration: InputDecoration.collapsed(
@@ -27,11 +27,11 @@ class SearchBar extends StatelessWidget {
             onPressed: () {},
             color: kOrangeColor,
             padding: const EdgeInsets.symmetric(
-              horizontal: 10,
-              vertical: 15,
+              horizontal: 5,
+              vertical: 5,
             ),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(30),
+              borderRadius: BorderRadius.circular(10),
             ),
             child: SvgPicture.asset('assets/icons/search.svg'),
           ),
