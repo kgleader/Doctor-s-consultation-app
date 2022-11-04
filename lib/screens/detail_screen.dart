@@ -133,9 +133,6 @@ class DetailScreen extends StatelessWidget {
                                       color: kOrangeColor.withOpacity(0.1),
                                       borderRadius: BorderRadius.circular(10),
                                     ),
-                                    child: SvgPicture.asset(
-                                      'assets/icons/video.svg',
-                                    ),
                                   ),
                                 ],
                               ),

@@ -19,3 +19,5 @@ class AppText {
   static const String arvinder = 'Арвиндер Соин Синх';
   static const String bora = 'Бора Грираж';
 }
+
+const IconData email = IconData(0xe22a);
