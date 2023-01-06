@@ -32,7 +32,7 @@ class CategoryCard extends StatelessWidget {
                 child: Text(
                   _title,
                   style: TextStyle(
-                    color: kTitleTextColor,
+                    color: TitleTextColor,
                   ),
                 ),
               ),

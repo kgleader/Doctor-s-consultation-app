@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kBackgroundColor,
+      backgroundColor: BackgroundColor,
       body: SafeArea(
         bottom: false,
         child: SingleChildScrollView(
@@ -38,7 +38,7 @@ class HomeScreen extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 22,
-                    color: kTitleTextColor,
+                    color: TitleTextColor,
                   ),
                 ),
               ),
@@ -58,7 +58,7 @@ class HomeScreen extends StatelessWidget {
                   'Категории',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: kTitleTextColor,
+                    color: TitleTextColor,
                     fontSize: 18,
                   ),
                 ),
@@ -76,7 +76,7 @@ class HomeScreen extends StatelessWidget {
                   'ТОП врачей',
                   style: TextStyle(
                     fontWeight: FontWeight.bold,
-                    color: kTitleTextColor,
+                    color: TitleTextColor,
                     fontSize: 18,
                   ),
                 ),
@@ -103,7 +103,7 @@ class HomeScreen extends StatelessWidget {
           CategoryCard(
             'Пересадка\nПечени',
             'assets/icons/liver.jpg',
-            kBlueColor,
+            BlueColor,
           ),
           const SizedBox(
             width: 10,
@@ -111,7 +111,7 @@ class HomeScreen extends StatelessWidget {
           CategoryCard(
             'Кардио\nХирургия',
             'assets/icons/heart.jpg',
-            kYellowColor,
+            YellowColor,
           ),
           const SizedBox(
             width: 10,
@@ -119,7 +119,7 @@ class HomeScreen extends StatelessWidget {
           CategoryCard(
             'Пересадка\nПочек',
             'assets/icons/kidney.jpg',
-            kOrangeColor,
+            OrangeColor,
           ),
           const SizedBox(
             width: 9,
@@ -140,7 +140,7 @@ class HomeScreen extends StatelessWidget {
             'Субаш Гупта',
             'Хирург по пересадке печени - клиника "Макс"',
             'assets/images/subash.jpg',
-            kBlueColor,
+            BlueColor,
           ),
           const SizedBox(
             height: 10,
@@ -149,7 +149,7 @@ class HomeScreen extends StatelessWidget {
             'Др.Абидип Чодри',
             'Хирург по пересадке печени - клиника "БЛК-Макс"',
             'assets/images/abhideep.jpg',
-            kYellowColor,
+            YellowColor,
           ),
           const SizedBox(
             height: 20,
@@ -158,7 +158,7 @@ class HomeScreen extends StatelessWidget {
             'Др.Вивек Виж',
             'Хирург по пересадке печени - клиника "Фортис"',
             'assets/images/doctor3.png',
-            kOrangeColor,
+            OrangeColor,
           ),
           const SizedBox(
             height: 20,
@@ -167,7 +167,7 @@ class HomeScreen extends StatelessWidget {
             'Др.Васу Деван',
             'Хирург по пересадке печени - клиника "Жейпи"',
             'assets/images/doctor3.png',
-            kOrangeColor,
+            OrangeColor,
           ),
           const SizedBox(
             height: 20,

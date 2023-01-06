@@ -57,7 +57,7 @@ class DetailScreen extends StatelessWidget {
               Container(
                 width: double.infinity,
                 decoration: BoxDecoration(
-                  color: kBackgroundColor,
+                  color: BackgroundColor,
                   borderRadius: const BorderRadius.vertical(
                     top: Radius.circular(50),
                   ),
@@ -84,7 +84,7 @@ class DetailScreen extends StatelessWidget {
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20,
-                                  color: kTitleTextColor,
+                                  color: TitleTextColor,
                                 ),
                               ),
                               const SizedBox(
@@ -93,7 +93,7 @@ class DetailScreen extends StatelessWidget {
                               Text(
                                 _description,
                                 style: TextStyle(
-                                  color: kTitleTextColor.withOpacity(0.7),
+                                  color: TitleTextColor.withOpacity(0.7),
                                 ),
                               ),
                               const SizedBox(
@@ -104,7 +104,7 @@ class DetailScreen extends StatelessWidget {
                                   Container(
                                     padding: const EdgeInsets.all(10),
                                     decoration: BoxDecoration(
-                                      color: kBlueColor.withOpacity(0.1),
+                                      color: BlueColor.withOpacity(0.1),
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     child: SvgPicture.asset(
@@ -117,7 +117,7 @@ class DetailScreen extends StatelessWidget {
                                   Container(
                                     padding: const EdgeInsets.all(10),
                                     decoration: BoxDecoration(
-                                      color: kYellowColor.withOpacity(0.1),
+                                      color: YellowColor.withOpacity(0.1),
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                     child: SvgPicture.asset(
@@ -130,7 +130,7 @@ class DetailScreen extends StatelessWidget {
                                   Container(
                                     padding: const EdgeInsets.all(10),
                                     decoration: BoxDecoration(
-                                      color: kOrangeColor.withOpacity(0.1),
+                                      color: OrangeColor.withOpacity(0.1),
                                       borderRadius: BorderRadius.circular(10),
                                     ),
                                   ),
@@ -148,7 +148,7 @@ class DetailScreen extends StatelessWidget {
                         style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 18,
-                          color: kTitleTextColor,
+                          color: TitleTextColor,
                         ),
                       ),
                       const SizedBox(
@@ -158,7 +158,7 @@ class DetailScreen extends StatelessWidget {
                         'Доктор Субхаш Гупта является председателем Центра исследований печени и желчевыводящих путей Макса, который является одним из крупнейших центров трансплантации печени в мире с опытом более 3000 трансплантаций. Председатель-Макс Центр печеночных билиарных исследований.',
                         style: TextStyle(
                           height: 1.6,
-                          color: kTitleTextColor.withOpacity(0.7),
+                          color: TitleTextColor.withOpacity(0.7),
                         ),
                       ),
                       const SizedBox(

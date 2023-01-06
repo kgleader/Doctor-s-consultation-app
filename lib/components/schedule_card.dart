@@ -56,13 +56,13 @@ class ScheduleCard extends StatelessWidget {
             _title,
             style: TextStyle(
               fontWeight: FontWeight.bold,
-              color: kTitleTextColor,
+              color: TitleTextColor,
             ),
           ),
           subtitle: Text(
             _description,
             style: TextStyle(
-              color: kTitleTextColor.withOpacity(0.7),
+              color: TitleTextColor.withOpacity(0.7),
             ),
           ),
         ),

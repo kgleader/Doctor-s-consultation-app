@@ -12,7 +12,7 @@ class SearchBar extends StatelessWidget {
           width: MediaQuery.of(context).size.width * 0.7,
           padding: const EdgeInsets.symmetric(horizontal: 30),
           decoration: BoxDecoration(
-            color: kSearchBackgroundColor,
+            color: SearchBackgroundColor,
             borderRadius: BorderRadius.circular(50),
           ),
           child: const TextField(
@@ -25,7 +25,7 @@ class SearchBar extends StatelessWidget {
           alignment: Alignment.centerRight,
           child: MaterialButton(
             onPressed: () {},
-            color: kOrangeColor,
+            color: OrangeColor,
             padding: const EdgeInsets.symmetric(
               horizontal: 5,
               vertical: 5,

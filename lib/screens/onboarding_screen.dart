@@ -7,7 +7,7 @@ class OnboardingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: kBackgroundColor,
+      backgroundColor: BackgroundColor,
       body: SafeArea(
         bottom: false,
         child: Stack(
@@ -34,7 +34,7 @@ class OnboardingScreen extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 32,
-                        color: kTitleTextColor,
+                        color: TitleTextColor,
                       ),
                     ),
                     const SizedBox(
@@ -44,7 +44,7 @@ class OnboardingScreen extends StatelessWidget {
                       'Жизнь в удовольствие возможна!',
                       style: TextStyle(
                         fontSize: 16,
-                        color: kTitleTextColor.withOpacity(0.7),
+                        color: TitleTextColor.withOpacity(0.7),
                       ),
                     ),
                     const SizedBox(
@@ -59,7 +59,7 @@ class OnboardingScreen extends StatelessWidget {
                           ),
                         );
                       },
-                      color: kOrangeColor,
+                      color: OrangeColor,
                       padding: const EdgeInsets.symmetric(
                         horizontal: 30,
                       ),
@@ -69,7 +69,7 @@ class OnboardingScreen extends StatelessWidget {
                       child: Text(
                         'Начнем',
                         style: TextStyle(
-                          color: kWhiteColor,
+                          color: WhiteColor,
                           fontSize: 16,
                         ),
                       ),

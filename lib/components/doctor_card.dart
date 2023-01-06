@@ -34,14 +34,14 @@ class DoctorCard extends StatelessWidget {
             title: Text(
               _name,
               style: TextStyle(
-                color: kTitleTextColor,
+                color: TitleTextColor,
                 fontWeight: FontWeight.bold,
               ),
             ),
             subtitle: Text(
               _description,
               style: TextStyle(
-                color: kTitleTextColor.withOpacity(0.7),
+                color: TitleTextColor.withOpacity(0.7),
               ),
             ),
           ),

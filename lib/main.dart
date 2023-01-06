@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:doctor_consultation_app/screens/onboarding_screen.dart';
-// ignore: import_of_legacy_library_into_null_safe
+
 import 'package:google_fonts/google_fonts.dart';
 
 void main() => runApp(MyApp());
